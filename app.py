@@ -1,5 +1,6 @@
 import os
 os.environ["STREAMLIT_CONFIG_DIR"] = ".streamlit"
+os.environ["STREAMLIT_BROWSER_GATHER_USAGE_STATS"] = "false"
 import streamlit as st
 from PIL import Image
 import numpy as np
