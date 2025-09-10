@@ -1,3 +1,5 @@
+import os
+os.environ["STREAMLIT_CONFIG_DIR"] = ".streamlit"
 import streamlit as st
 from PIL import Image
 import numpy as np
